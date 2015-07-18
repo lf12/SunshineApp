@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sunshine Weather App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_share">Share</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">Lisboa</string>
+
+    <!-- Label for the Temperature units preference [CHAR LIMIT=30] -->
+    <string name="pref_temp_label">Temperature Units</string>
+    <string name="pref_temp_key" translatable="false">units</string>
+    <string name="pref_units_label_metric">Metric units</string>
+    <string name="pref_units_label_imperial">Imperial units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+    <!-- View User prefered location on a Map -->
+    <string name="action_view_location_map">View map location</string>
+
+
+</resources>

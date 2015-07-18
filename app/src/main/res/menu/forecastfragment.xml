@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <item android:id="@+id/action_view_location_map"
+        android:title="@string/action_view_location_map"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:showAsAction="never"/>
+
+</menu>
