@@ -38,6 +38,8 @@ public class DetailActivityFragment extends Fragment {
 
         if (intent != null && intent.hasExtra(Intent.EXTRA_TEXT)) {
             forecastStr = intent.getStringExtra(Intent.EXTRA_TEXT);
+        }
+        if (null != forecastStr) {
             ((TextView) rootView.findViewById(R.id.detail_text))
                     .setText(forecastStr);
         }
